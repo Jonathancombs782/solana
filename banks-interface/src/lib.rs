@@ -1,41 +1,5 @@
 #![allow(deprecated)]
-HUMAN
-  │
-  ▼
-NATURAL LANGUAGE INTENT
-  │
-  ▼
-AI INTENT ENGINE
-  │
-  ├── PLAN
-  ├── RISK ASSESSMENT
-  └── REQUIRED PERMISSIONS
-  │
-  ▼
-HUMAN AUTHORIZATION
-  │
-  ▼
-AUTOMATION ORCHESTRATOR
-  │
-  ├── GitHub
-  ├── Codespaces
-  ├── VS Code
-  ├── MCP
-  ├── APIs
-  ├── Blockchain
-  └── Virtual/physical systems
-  │
-  ▼
-EXECUTION
-  │
-  ▼
-VERIFICATION
-  │
-  ▼
-AUDIT LOG
-  │
-  ▼
-HUMAN + AI LEARN FROM RESULT
+
 use {
     serde::{Deserialize, Serialize},
     solana_sdk::{
